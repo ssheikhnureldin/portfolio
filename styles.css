@@ -3,12 +3,13 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
+  background-color: #f7f6f5;
 }
 
 header {
-  background-color: #333;
+  background-color: #cfb7b3;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -26,11 +27,12 @@ nav ul li a {
   color: white;
   text-decoration: none;
   padding: 0.5rem;
+  font-weight: 600;
 }
 
 nav ul li a:hover {
   background-color: white;
-  color: #333;
+  color: #cfb7b3;
   border-radius: 0.25rem;
 }
 
@@ -43,22 +45,11 @@ section {
 }
 
 h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #2d2d2d;
 }
 
 .project {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  margin-bottom: 1rem;
-}
-
-.project img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-.project h3 {
-  font-size: 1.5rem;
-  margin-bottom: 
+  border: 1px solid
