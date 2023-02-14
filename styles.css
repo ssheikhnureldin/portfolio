@@ -101,7 +101,7 @@ input, textarea {
 }
 
 button[type="submit"] {
-  background-color: #333;
+  background-color: #ff94ab;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -111,5 +111,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #555;
+  background-color: rgb(250, 107, 138);
 }
