@@ -1,15 +1,15 @@
 /* Global Styles */
 * {
   box-sizing: border-box;
-  margin: 10;
-  padding: 10;
-  font-family:roboto;
+  margin: 0;
+  padding: 0;
+  font-family:'arial';
 
   
 }
 
 body {
-  background-color: #ffdef1;
+  background-color: #fff;
   line-height: 1.5;
 }
 
@@ -25,8 +25,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 40px 150px;
-  background-color:#ffdef1;
-  
+  border-bottom: 1px solid #ccc; 
+
   text-align:center;
   font-size:15px;
 
@@ -40,18 +40,24 @@ nav ul {
 nav li {
   margin: 0 10px;
   list-style: none;
+ 
 }
 
 nav a {
   padding: 5px;
   border-radius: 5px;
+  
 }
 
-nav a:hover {
+nav a {
   background-color: rgb(247, 172, 205);
   color:#ffff; 
+  padding:5px; 
 }
-
+nav a:hover {
+  background-color: rgb(255, 215, 232);
+  color:#ffff; 
+}
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -68,7 +74,7 @@ h2 {
 }
 
 .project {
-  border: 1px solid rgb(210, 196, 233);
+  border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
