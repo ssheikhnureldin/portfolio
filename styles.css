@@ -1,13 +1,15 @@
 /* Global Styles */
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Roboto, sans-serif;
+  margin: 10;
+  padding: 10;
+  font-family:roboto;
+
+  
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #ffdef1;
   line-height: 1.5;
 }
 
@@ -17,13 +19,16 @@ a {
 }
 
 header {
-  background-color: #ff94ab;
-  color: #fff;
+
+  color: #333;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 20px;
-  border-bottom: 10px solid rgb(250, 107, 138);
+  padding: 40px 150px;
+  background-color:#ffdef1;
+  
+  text-align:center;
+  font-size:15px;
 
 }
 
@@ -43,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(250, 107, 138);
+  background-color: rgb(247, 172, 205);
   color:#ffff; 
 }
 
@@ -63,7 +68,7 @@ h2 {
 }
 
 .project {
-  border: 1px solid #ddd;
+  border: 1px solid rgb(210, 196, 233);
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
@@ -101,7 +106,7 @@ input, textarea {
 }
 
 button[type="submit"] {
-  background-color: #ff94ab;
+  background-color: rgb(247, 172, 205);
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -111,5 +116,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: rgb(250, 107, 138);
+  background-color: #ffc3e4;
 }
